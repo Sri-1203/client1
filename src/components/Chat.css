@@ -1,19 +1,38 @@
+.gradient-background {
+	background: linear-gradient(-45deg,#ff9045, #ee7752, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .outerContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #1A1A1D;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #FFFFFF;
+  border: 1px solid;
+  border-color: rgb(92, 92, 233);
   border-radius: 8px;
-  height: 60%;
-  width: 35%;
+  height: 100%;
+  width: 75%;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
