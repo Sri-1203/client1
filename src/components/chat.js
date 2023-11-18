@@ -54,7 +54,7 @@ const Chat = ({ location }) => {
   }
 
   return (
-    <div className="outerContainer">
+    <div className="outerContainer gradient-background">
     <TextContainer users={users}/>
     
     <div className="container">
