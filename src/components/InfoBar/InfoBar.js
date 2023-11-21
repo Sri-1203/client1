@@ -12,7 +12,7 @@ const InfoBar = ({ room }) => (
       <h1>{room}</h1>
     </div>
     <div className="rightInnerContainer">
-      <a href="/"><img src={closeIcon} alt="close icon" /></a>
+      <a href="https://mern-frontend-gray.vercel.app/chatsuser"><img src={closeIcon} alt="close icon" /></a>
     </div>
   </div>
 );
